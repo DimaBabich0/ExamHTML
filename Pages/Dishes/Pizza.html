@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="Pages/Main Page/css/style.css">
+    <link rel="stylesheet" href="/Pages/Main Page/css/style.css">
     <title>Main Page</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
 
             <div class="col hide-on-med-and-down m3">
                 <div class="row valign-wrapper zero_margin_bottom">
-                    <img class="col s3" src="Pages/Main Page/imgs/icon_phone.png">
+                    <img class="col s3" src="/Pages/Main Page/imgs/icon_phone.png">
                     <ul class="col s9">
                         <li>+38 (048) 700 00 22</li>
                         <li>+38 (093) 700 00 22</li>
@@ -27,10 +27,10 @@
     
             <div class="col hide-on-med-and-down m1 center-align">
                 <a href="https://uk-ua.facebook.com/">
-                    <img class="logo" src="Pages/Main Page/imgs/icon_facebook.png">
+                    <img class="logo" src="/Pages/Main Page/imgs/icon_facebook.png">
                 </a>
                 <a href="https://www.instagram.com/">
-                    <img class="logo" src="Pages/Main Page/imgs/icon_instagram.png">
+                    <img class="logo" src="/Pages/Main Page/imgs/icon_instagram.png">
                 </a>
             </div>
     
@@ -42,16 +42,16 @@
     
             <div class="col s4 m2 center-align">
                 <a href="/Pages/Authorization/Log_In.html" class="cabinet_section padding_1vh">
-                    <img class="logo" src="Pages/Main Page/imgs/icon_user.png">
+                    <img class="logo" src="/Pages/Main Page/imgs/icon_user.png">
                     <p class="hide-on-med-and-down">Вход</p>
                 </a>
             </div>
 
             <a href="#basket" class="col s4 m2 flex_center modal-trigger">
-                <img class="col s12 m5 responsive-img padding_2vh" src="Pages/Main Page/imgs/icon_shopping_basket.png">
+                <img class="col s12 m5 responsive-img padding_2vh" src="/Pages/Main Page/imgs/icon_shopping_basket.png">
                 <div class="flex_right direction_column aling_content_right">
-                    <p class="hide-on-med-and-down">597 грн</p>
-                    <p class="hide-on-med-and-down">3 товаров</p>
+                    <p class="hide-on-med-and-down">0 грн</p>
+                    <p class="hide-on-med-and-down">0 товаров</p>
                 </div>
             </a>
 
@@ -59,72 +59,15 @@
                 <div class="modal-content">
                     <h5>Корзина</h5>
                     
-                    <div class="row z-depth-1 basket_section">
-                        <div class="col s12">
-                            <div class="row zero_margin_bottom">
-                                <div class="col s5">
-                                    <img class="responsive-img" src="Pages/Main Page/imgs/photo_pizza.jpg" alt="">
-                                </div>
-                                <div class="flex direction_column">
-                                    <p>Пицца "Маргарита"</p>
-                                    <p>Количество: 2 штуки</p>
-                                    <p>398 грн</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12">
-                            <div class="row zero_margin_bottom">
-                                <div class="col s5">
-                                    <img class="responsive-img" src="Pages/Main Page/imgs/photo_ravioli.jpg" alt="">
-                                </div>
-                                <div class="flex direction_column">
-                                    <p>Равиоли с курицей и грибами</p>
-                                    <p>Количество: 1 штуки</p>
-                                    <p>199 грн</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h5>Оформление заказа</h5>
-                    <div class="row">
-                        <form method="get">
-                            <div>
-                                <label for="name">Имя</label>
-                                <input type="text" pattern="^\D{2,}$"/>
-                            </div>
-                
-                            <div>
-                                <label for="address">Адрес</label>
-                                <input type="text" pattern="^\D{2,}$"/>
-                            </div>
-                
-                            <div>
-                                <label for="phone">Номер телефона</label>
-                                <input type="text" placeholder="+447500000000" 
-                                    pattern="^\+\d{12}$"/>
-                            </div>
-                
-                            <div>
-                                <label for="email">E-mail</label>
-                                <input type="text" placeholder="example@domain.com" 
-                                    pattern="^(\S{5,}@\D{3,5}\.\D{2,5})$"/>
-                            </div>
-                
-                            <div>
-                                <label for="commentary">Комментарий к заказу</label>
-                                <textarea name="commentary" minlength="1" maxlength="128"></textarea>
-                            </div>
-                        </form>
-
+                    <div class="center">
+                        <p>Пока что здесь пусто</p>
                     </div>
 
                 </div>
                 <div class="modal-footer">
-                    <a href="#!" class="modal-close waves-effect waves-green btn">Завершить заказ</a>
+                    <a href="#!" class="modal-close waves-effect waves-green btn">Закрыть корзину</a>
                 </div>
             </div>
-
 
         </div>
         
@@ -136,14 +79,14 @@
 
                     <li><a href="/Pages/Dishes/Pizza.html">
                         <div class="flex_center justify-content-center margin_top_bottom">
-                            <img class="icon" src="Pages/Main Page/imgs/icon_pizza.png">
+                            <img class="icon" src="/Pages/Main Page/imgs/icon_pizza.png">
                             <p>Пицца</p>
                         </div>
                     </a></li>
                     
                     <li><a href="/Pages/Dishes/Pasta.html">
                         <div class="flex_center justify-content-center margin_top_bottom">
-                            <img class="icon" src="Pages/Main Page/imgs/icon_pasta.png">
+                            <img class="icon" src="/Pages/Main Page/imgs/icon_pasta.png">
                             <p>Паста</p>
                         </div>
                     </a></li>
@@ -191,19 +134,13 @@
 
 
     <main class="row">
-        <div class="row carousel carousel-slider">
-            <a class="carousel-item" href="/Pages/Other/Promotions.html"><img src="Pages/Main Page/imgs/slide.png"></a>
-            <a class="carousel-item" href="/Pages/Other/Promotions.html"><img src="Pages/Main Page/imgs/slide.png"></a>
-            <a class="carousel-item" href="/Pages/Other/Promotions.html"><img src="Pages/Main Page/imgs/slide.png"></a>
-        </div>
-
         <div>
             <h1 class="col s12 center margin_top_bottom">Пицца</h1>
 
             <div class="col s6 m3">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="Pages/Main Page/imgs/photo_pizza.jpg">
+                        <img class="activator" src="/Pages/Main Page/imgs/photo_pizza.jpg">
                     </div>
     
                     <div class="card-content">
@@ -312,7 +249,7 @@
             <div class="col s6 m3">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="Pages/Main Page/imgs/photo_pizza.jpg">
+                        <img class="activator" src="/Pages/Main Page/imgs/photo_pizza.jpg">
                     </div>
     
                     <div class="card-content">
@@ -421,7 +358,7 @@
             <div class="col s6 m3">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="Pages/Main Page/imgs/photo_pizza.jpg">
+                        <img class="activator" src="/Pages/Main Page/imgs/photo_pizza.jpg">
                     </div>
     
                     <div class="card-content">
@@ -530,7 +467,225 @@
             <div class="col s6 m3">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="Pages/Main Page/imgs/photo_pizza.jpg">
+                        <img class="activator" src="/Pages/Main Page/imgs/photo_pizza.jpg">
+                    </div>
+    
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Пицца "Маргарита"<i class="material-icons right">more_vert</i></span>
+                        <span class="card-subtitle grey-text text-darken-4">199 грн</span>
+                        <br>
+                        <br>
+                        <a class="waves-effect waves-light btn modal-trigger" href="#modal4">Добавить товар</a>
+
+                        <div id="modal4" class="modal">
+                            <div class="modal-content">
+                                <h5>Пицца "Маргарита"</h5>
+                                
+                                <div class="row">
+
+                                    <div class="col s12 m4">
+                                        <p>Тип коржа:</p>
+                                        <form action="#">
+                                            <p>
+                                                <label>
+                                                    <input name="group1" type="radio" checked />
+                                                    <span>Пышный</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input name="group1" type="radio" />
+                                                    <span>Тонкий</span>
+                                                </label>
+                                            </p>
+                                        </form>
+                                    </div>
+    
+                                    <div class="col s12 m4">
+                                        <p>Размер:</p>
+                                        <form action="#">
+                                            <p>
+                                                <label>
+                                                    <input name="group1" type="radio" checked />
+                                                    <span>22 см</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input name="group1" type="radio" />
+                                                    <span>32 см</span>
+                                                </label>
+                                            </p>
+                                        </form>
+                                    </div>
+    
+                                    <div class="col s12 m4">
+                                        <p>Соус (в подарок):</p>
+                                        <form action="#">
+                                            <p>
+                                                <label>
+                                                    <input name="group1" type="radio" checked />
+                                                    <span>Без соуса</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input name="group1" type="radio" />
+                                                    <span>Томатный</span>
+                                                </label>
+                                            </p>
+                                        </form>
+                                    </div>
+
+                                </div>
+
+                                <div>
+                                    <p>Комментарий к товару:</p>
+                                    <textarea></textarea>
+                                </div>
+
+                                <div>
+                                    <p>Количество:</p>
+                                    <div class="flex_center justify-content-center">
+                                        <a class="waves-effect waves-light btn">-</a>
+                                        <input type="number" step="1" value="1" min="1" max="999" readonly style="padding: 0vh 1vh; margin: 0%;">
+                                        <a class="waves-effect waves-light btn">+</a>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h5>Общая стоимость: 199 грн</h5>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Добавить в корзину</a>
+                            </div>
+                        </div>
+
+                    </div>
+    
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Пицца "Маргарита"<i class="material-icons right">close</i></span>
+                        <p>
+                            Классическая пицца с моцареллой и помидорами, на фирменном томатном соусе.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s6 m3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="/Pages/Main Page/imgs/photo_pizza.jpg">
+                    </div>
+    
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Пицца "Маргарита"<i class="material-icons right">more_vert</i></span>
+                        <span class="card-subtitle grey-text text-darken-4">199 грн</span>
+                        <br>
+                        <br>
+                        <a class="waves-effect waves-light btn modal-trigger" href="#modal3">Добавить товар</a>
+
+                        <div id="modal3" class="modal">
+                            <div class="modal-content">
+                                <h5>Пицца "Маргарита"</h5>
+                                
+                                <div class="row">
+
+                                    <div class="col s12 m4">
+                                        <p>Тип коржа:</p>
+                                        <form action="#">
+                                            <p>
+                                                <label>
+                                                    <input name="group1" type="radio" checked />
+                                                    <span>Пышный</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input name="group1" type="radio" />
+                                                    <span>Тонкий</span>
+                                                </label>
+                                            </p>
+                                        </form>
+                                    </div>
+    
+                                    <div class="col s12 m4">
+                                        <p>Размер:</p>
+                                        <form action="#">
+                                            <p>
+                                                <label>
+                                                    <input name="group1" type="radio" checked />
+                                                    <span>22 см</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input name="group1" type="radio" />
+                                                    <span>32 см</span>
+                                                </label>
+                                            </p>
+                                        </form>
+                                    </div>
+    
+                                    <div class="col s12 m4">
+                                        <p>Соус (в подарок):</p>
+                                        <form action="#">
+                                            <p>
+                                                <label>
+                                                    <input name="group1" type="radio" checked />
+                                                    <span>Без соуса</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input name="group1" type="radio" />
+                                                    <span>Томатный</span>
+                                                </label>
+                                            </p>
+                                        </form>
+                                    </div>
+
+                                </div>
+
+                                <div>
+                                    <p>Комментарий к товару:</p>
+                                    <textarea></textarea>
+                                </div>
+
+                                <div>
+                                    <p>Количество:</p>
+                                    <div class="flex_center justify-content-center">
+                                        <a class="waves-effect waves-light btn">-</a>
+                                        <input type="number" step="1" value="1" min="1" max="999" readonly style="padding: 0vh 1vh; margin: 0%;">
+                                        <a class="waves-effect waves-light btn">+</a>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h5>Общая стоимость: 199 грн</h5>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Добавить в корзину</a>
+                            </div>
+                        </div>
+
+                    </div>
+    
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Пицца "Маргарита"<i class="material-icons right">close</i></span>
+                        <p>
+                            Классическая пицца с моцареллой и помидорами, на фирменном томатном соусе.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s6 m3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="/Pages/Main Page/imgs/photo_pizza.jpg">
                     </div>
     
                     <div class="card-content">
@@ -637,62 +792,6 @@
             </div>
 
         </div>
-
-        <div>
-            <h1 class="col s12 center margin_top_bottom">Паста</h1>
-
-            <div class="col s6 m3">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="Pages/Main Page/imgs/photo_ravioli.jpg">
-                    </div>
-    
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Равиоли с курицей и грибами<i class="material-icons right">more_vert</i></span>
-                        <span class="card-subtitle grey-text text-darken-4">199 грн</span>
-                        <br>
-                        <br>
-                        <a class="waves-effect waves-light btn modal-trigger" href="#modal5">Добавить товар</a>
-
-                        <div id="modal5" class="modal">
-                            <div class="modal-content">
-                                <h5>Равиоли с курицей и грибами</h5>
-
-                                <div>
-                                    <p>Комментарий к товару:</p>
-                                    <textarea></textarea>
-                                </div>
-
-                                <div>
-                                    <p>Количество:</p>
-                                    <div class="flex_center justify-content-center">
-                                        <a class="waves-effect waves-light btn">-</a>
-                                        <input type="number" step="1" value="1" min="1" max="999" readonly style="padding: 0vh 1vh; margin: 0%;">
-                                        <a class="waves-effect waves-light btn">+</a>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <h5>Общая стоимость: 199 грн</h5>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Добавить в корзину</a>
-                            </div>
-                        </div>
-
-                    </div>
-    
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Равиоли с курицей и грибами<i class="material-icons right">close</i></span>
-                        <p>
-                            Равиоли с курицей и грибами
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
     </main>
 
     <footer class="page-footer grey darken-3">
@@ -708,8 +807,8 @@
                     <li><a class="grey-text text-lighten-3" href="">Про нас</a></li>
                 </ul>
                 <div class="row">
-                    <img class="col s2 responsive-img" src="Pages/Main Page/imgs/icon_visa.png" alt="">
-                    <img class="col s2 responsive-img" src="Pages/Main Page/imgs/icon_mastercard.png" alt="">
+                    <img class="col s2 responsive-img" src="/Pages/Main Page/imgs/icon_visa.png" alt="">
+                    <img class="col s2 responsive-img" src="/Pages/Main Page/imgs/icon_mastercard.png" alt="">
                 </div>
             </div>
 
@@ -747,10 +846,10 @@
                 </form>
                 <div class="col zero_padding">
                     <a href="https://uk-ua.facebook.com/">
-                        <img class="logo" src="Pages/Main Page/imgs/icon_facebook.png">
+                        <img class="logo" src="/Pages/Main Page/imgs/icon_facebook.png">
                     </a>
                     <a href="https://www.instagram.com/">
-                        <img class="logo" src="Pages/Main Page/imgs/icon_instagram.png">
+                        <img class="logo" src="/Pages/Main Page/imgs/icon_instagram.png">
                     </a>
                 </div>
             </div>
@@ -766,7 +865,7 @@
                 <div class="col s6 m4 flex_center justify-content-center">
                     <a href="">
                         <div class="grey darken-4 flex_center paddingLR_2vh border_radius_5vh white-text">
-                            <img src="Pages/Main Page/imgs/icon_apple.png" alt="">
+                            <img src="/Pages/Main Page/imgs/icon_apple.png" alt="">
                             <div class="flex direction_column padding_1vh">
                                 <p>Скачать из</p>
                                 <p>App Store</p>
@@ -778,7 +877,7 @@
                 <div class="col s6 m4 flex_center justify-content-center">
                     <a href="">
                         <div class="grey darken-4 flex_center margin_1vh paddingLR_2vh border_radius_5vh white-text">
-                            <img src="Pages/Main Page/imgs/icon_android.png" alt="">
+                            <img src="/Pages/Main Page/imgs/icon_android.png" alt="">
                             <div class="flex direction_column padding_1vh">
                                 <p>Скачать из</p>
                                 <p>Google Play</p>

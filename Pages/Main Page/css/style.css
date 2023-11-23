@@ -1,9 +1,19 @@
+body::-webkit-scrollbar 
+{
+    display: none;
+}
+.modal::-webkit-scrollbar 
+{
+    display: none;
+}
+
+
 .flex
 {
     display: flex;
 }
 
-.flex_centered
+.flex_center
 {
     display: flex;
     align-items: center;
@@ -11,16 +21,17 @@
 .flex_right
 {
     display: flex;
-    align-items: end;
+    align-items: flex-end;
 }
+
 .direction_column
 {
     flex-direction: column;
 }
 
-.justify_content_space_around
+.justify_content_space_between
 {
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .justify-content-center
@@ -45,9 +56,40 @@
 {
     padding: 1vh;
 }
+.padding_2vh
+{
+    padding: 2vh;
+}
+.paddingLR_2vh
+{
+    padding: 0vh 3vh;
+}
+.zero_padding
+{
+    padding: 0%!important;
+}
+
+.li_margin>li
+{
+    margin: 0.5vh 0vh;
+}
+
+.margin_1vh
+{
+    margin: 1vh;
+}
+.zero_margin
+{
+    margin: 0%!important;
+}
 .zero_margin_bottom
 {
     margin-bottom: 0%;
+}
+
+.border_radius_5vh
+{
+    border-radius: 5vh;
 }
 
 .cabinet_section
@@ -65,6 +107,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+.basket_section
+{
+    height: 40vh;
+    overflow: auto;
 }
 
 .logo
