@@ -84,7 +84,7 @@ body::-webkit-scrollbar
 }
 .zero_margin_bottom
 {
-    margin-bottom: 0%;
+    margin-bottom: 0%!important;
 }
 
 .border_radius_5vh
